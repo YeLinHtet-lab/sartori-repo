@@ -8,12 +8,12 @@ AIDB14,Jurisdiction,Basis of jurisdiction for civil appeals,Appeals Integrated D
 AIDB15,Nature of suit,Nature of suit for civil appeals,Appeals Integrated Database; Civil Integrated Database
 AIDB16,Nature of offense,Nature of offense for criminal appeals,Appeals Integrated Database
 AIDB17,Other type,Additional information regarding bankruptcy or other appeals,Appeals Integrated Database
-AIDB18,District court  Circuit,The code of the federal judicial circuit in which the case was originally filed,Appeals Integrated Database
-AIDB19,District court  District,The code of the federal judicial district/bankruptcy court in which the case was originally filed,Appeals Integrated Database
+AIDB18,District court Circuit,The code of the federal judicial circuit in which the case was originally filed,Appeals Integrated Database
+AIDB19,District court District,The code of the federal judicial district/bankruptcy court in which the case was originally filed,Appeals Integrated Database
 AIDB2,Docket number,Docket number assigned by the circuit to the case,Appeals Integrated Database; Bankruptcy Petition Newstats Snapshots Database; Civil Integrated Database; Criminal Integrated Database
-AIDB20,District court  Office,The code of the district/bankruptcy office in which the case was originally filed,Appeals Integrated Database
-AIDB21,District court  Docket,Docket number assigned to the case in the district/bankruptcy court,Appeals Integrated Database
-AIDB22,District court  Docket date,Date the case was docketed in the district/bankruptcy court,Appeals Integrated Database
+AIDB20,District court Office,The code of the district/bankruptcy office in which the case was originally filed,Appeals Integrated Database
+AIDB21,District court Docket,Docket number assigned to the case in the district/bankruptcy court,Appeals Integrated Database
+AIDB22,District court Docket date,Date the case was docketed in the district/bankruptcy court,Appeals Integrated Database
 AIDB23,Notice of appeal date,Date the notice of appeal was filed in the lower court,Appeals Integrated Database
 AIDB24,AOUSC filing month,Month the case was entered on the appeals statistical file of the AOUSC,Appeals Integrated Database
 AIDB25,AOUSC filing year,Year the case was entered on the appeals statistical file of the AOUSC,Appeals Integrated Database
@@ -47,8 +47,8 @@ AIDB50,Certificate of probable cause decision made by,Indicates which court made
 AIDB51,Full judge panel,Indicates whether a single judge or full panel heard the case,Appeals Integrated Database
 AIDB52,Counsel appointed,Indicates if counsel was appointed by court,Appeals Integrated Database
 AIDB53,Counsel continued,Indicates if counsel was continued from district court,Appeals Integrated Database
-AIDB54,Counsel source  District,Source of counsel in district court,Appeals Integrated Database
-AIDB55,Counsel source  Circuit ,Source of counsel in circuit court,Appeals Integrated Database
+AIDB54,Counsel source District,Source of counsel in district court,Appeals Integrated Database
+AIDB55,Counsel source Circuit ,Source of counsel in circuit court,Appeals Integrated Database
 AIDB56,Statistical year,AOUSC statistical year in which the appeal was terminated,Appeals Integrated Database
 AIDB6,Appellant name,Name of the party initiating the appeal,Appeals Integrated Database
 AIDB7,US appellee,Indicates whether or not the appeal was filed against the United States,Appeals Integrated Database
@@ -65,9 +65,9 @@ BIDB15,Original filing chapter,"Chapter of the Bankruptcy Code as reported on th
 BIDB16,Original filing Subchapter V,"Code indicating a Chapter 11 Subchapter V small business debtor reorganization case as reported on the first record submitted to the AOUSC (i.e., the best representation of the subchapter under which the case was originally filed)",Bankruptcy Petition Newstats Snapshots Database
 BIDB17,Current chapter,"Chapter of the Bankruptcy Code as reported on the most current record received by the AOUSC as of the end of the snapshot period (i.e., the best representation of the chapter under which the case is currently being administered)",Bankruptcy Petition Newstats Snapshots Database
 BIDB18,Current Subchapter V,"Code indicating a Chapter 11 Subchapter V small business debtor reorganization case as reported on the most current record received by the AOUSC as of the end of the snapshot period (i.e., the best representation of the subchapter under which the case is currently being administered)",Bankruptcy Petition Newstats Snapshots Database
-BIDB19,Original nature of debt,Distinguishes whether debtors debts are primarily consumer or business debts as reported on the first record submitted to the AOUSC,Bankruptcy Petition Newstats Snapshots Database
+BIDB19,Original nature of debt,Distinguishes whether debtor's debts are primarily consumer or business debts as reported on the first record submitted to the AOUSC,Bankruptcy Petition Newstats Snapshots Database
 BIDB2,Filing indicator,Indicates whether the case was filed during the snapshot period,Bankruptcy Petition Newstats Snapshots Database
-BIDB20,Nature of debt,Distinguishes whether debtors debts are primarily consumer or business debts as reported on the most current record received by the AOUSC as of the end of the snapshot period,Bankruptcy Petition Newstats Snapshots Database
+BIDB20,Nature of debt,Distinguishes whether debtor's debts are primarily consumer or business debts as reported on the most current record received by the AOUSC as of the end of the snapshot period,Bankruptcy Petition Newstats Snapshots Database
 BIDB21,Joint flag,Flag indicating if this is an individual or joint petition,Bankruptcy Petition Newstats Snapshots Database
 BIDB22,Debtor1 zip,Zip code for street address of first listed debtor,Bankruptcy Petition Newstats Snapshots Database
 BIDB23,Debtor1 county,The five digit FIPS code for the county of residence of the first listed debtor,Bankruptcy Petition Newstats Snapshots Database
@@ -98,17 +98,17 @@ BIDB45,Original asset case,Code indicating whether there will be funds available
 BIDB46,Asset case,Code indicating whether there will be funds available for distribution to unsecured creditors as reported on the most current record received by the AOUSC as of the end of the snapshot period,Bankruptcy Petition Newstats Snapshots Database
 BIDB47,Small business debtor,Identifies if the debtor is a small business debtor in Chapter 11 cases,Bankruptcy Petition Newstats Snapshots Database
 BIDB48,Prepackaged case,Provides information regarding if a plan was filed with a petition in Chapter 11 cases,Bankruptcy Petition Newstats Snapshots Database
-BIDB49,Total assets,"Value reflects the amount of the debtors total assets and is the sum of the debtors real property from Schedule A and the debtors personal property from Schedule B, as reported on Form B6 Summary of Schedules at filing",Bankruptcy Petition Newstats Snapshots Database
-BIDB5,Case key,"Unique 16-character identifier for each case consisting of the prefix BK followed by the Circuit code, District code, Office code, Docket Number, Generation, and Sequence.",Bankruptcy Petition Newstats Snapshots Database
-BIDB50,Real property,"Value reflects the sum of the debtors real property from Schedule A, as reported on Form B6 Summary of Schedules at filing",Bankruptcy Petition Newstats Snapshots Database
-BIDB51,Personal property,"Value reflects the sum of the debtors personal property from Schedule B, as reported on Form B6 Summary of Schedules at filing",Bankruptcy Petition Newstats Snapshots Database
-BIDB52,Total liabilities,"Value reflects the amount of the debtors total liabilities at filing; sum of the secured claims from Schedule D, the unsecured priority claims from Schedule E, and the unsecured nonpriority claims from Schedule F, as reported on Form B6 Summary of Schedules",Bankruptcy Petition Newstats Snapshots Database
+BIDB49,Total assets,"Value reflects the amount of the debtor's total assets and is the sum of the debtor's real property from Schedule A and the debtor's personal property from Schedule B, as reported on Form B6 Summary of Schedules at filing",Bankruptcy Petition Newstats Snapshots Database
+BIDB5,Case key,"Unique 16-character identifier for each case consisting of the prefix 'BK' followed by the Circuit code, District code, Office code, Docket Number, Generation, and Sequence.",Bankruptcy Petition Newstats Snapshots Database
+BIDB50,Real property,"Value reflects the sum of the debtor's real property from Schedule A, as reported on Form B6 Summary of Schedules at filing",Bankruptcy Petition Newstats Snapshots Database
+BIDB51,Personal property,"Value reflects the sum of the debtor's personal property from Schedule B, as reported on Form B6 Summary of Schedules at filing",Bankruptcy Petition Newstats Snapshots Database
+BIDB52,Total liabilities,"Value reflects the amount of the debtor's total liabilities at filing; sum of the secured claims from Schedule D, the unsecured priority claims from Schedule E, and the unsecured nonpriority claims from Schedule F, as reported on Form B6 Summary of Schedules",Bankruptcy Petition Newstats Snapshots Database
 BIDB53,Secured claims,"Value reflects the sum of the secured claims from Schedule D, as reported on Form B6 Summary of Schedules at filing",Bankruptcy Petition Newstats Snapshots Database
 BIDB54,Unsecured priority claims,"Value reflects the sum of unsecured priority claims from Schedule E, as reported on Form B6 Summary of Schedules at filing",Bankruptcy Petition Newstats Snapshots Database
 BIDB55,Unsecured nonpriority claims,Value reflects the sum of the unsecured nonpriority claims from Schedule F. as reported on Form B6 Summary of Schedules at filing,Bankruptcy Petition Newstats Snapshots Database
-BIDB56,Total debt discharged,"This is the amount of the total debt that presumptively will be discharged, and is calculated by subtracting Non Dischargeable Debt from the sum of Secured Claims, Unsecured Priority Claims, and Unsecured NonPriority Claims",Bankruptcy Petition Newstats Snapshots Database
+BIDB56,Total debt discharged,"This is the amount of the total debt that presumptively will be discharged, and is calculated by subtracting 'Non Dischargeable Debt' from the sum of 'Secured Claims', 'Unsecured Priority Claims', and 'Unsecured NonPriority Claims'",Bankruptcy Petition Newstats Snapshots Database
 BIDB57,Non dischargeable debt,"This field reports debt from Schedules E and F that is predominantly non-dischargeable, and is the total of certain amounts reported on the Statistical Summary of Certain Liabilities and Related Data at filing; see full description",Bankruptcy Petition Newstats Snapshots Database
-BIDB58,Total debt,This is the sum of Total Debt Discharged and Non Dischargeable Debt,Bankruptcy Petition Newstats Snapshots Database
+BIDB58,Total debt,This is the sum of 'Total Debt Discharged' and 'Non Dischargeable Debt',Bankruptcy Petition Newstats Snapshots Database
 BIDB59,Current monthly income,"Current monthly income is from Line 12 of form 22A for chapter 7 debtors, Line 11 of form 22B for Chapter 11 debtors, and Line 20 of form 22C for chapter 13 debtors, as reported on the Statistical Summary of Certain Liabilities and Related Data at filing",Bankruptcy Petition Newstats Snapshots Database
 BIDB6,District,Code of the federal judicial district in which the case is located,Bankruptcy Petition Newstats Snapshots Database; Civil Integrated Database; Criminal Integrated Database
 BIDB60,Average monthly income,"Average Monthly Income from Line 16 of Schedule I, as reported on the Statistical Summary of Certain Liabilities and Related Data at filing",Bankruptcy Petition Newstats Snapshots Database
@@ -118,9 +118,9 @@ BIDB63,Destination case number,"When a case is transferred, the destination case
 BIDB64,Consolidated lead case number,For consolidated cases: reflects unique identifying information for the lead case,Bankruptcy Petition Newstats Snapshots Database
 BIDB65,Jointly administered case number,For jointly administered cases: reflects unique identifying information for the lead case,Bankruptcy Petition Newstats Snapshots Database
 BIDB66,Filing CMECF version,"Version of CM/ECF the court was using at the time the case record containing the filing data was transmitted to AOUSC, which may or may not reflect the version of CM/ECF in place when the case was filed",Bankruptcy Petition Newstats Snapshots Database
-BIDB67,Closing date,Date case was considered closed for statistical purposes,Bankruptcy Petition Newstats Snapshots Database
-BIDB68,Closing calendar year,Calendar year case was considered closed for statistical purposes,Bankruptcy Petition Newstats Snapshots Database
-BIDB69,Closing fiscal year,Fiscal year case was considered closed for statistical purposes,Bankruptcy Petition Newstats Snapshots Database
+BIDB67,Closing date,Date case was considered 'closed' for statistical purposes,Bankruptcy Petition Newstats Snapshots Database
+BIDB68,Closing calendar year,Calendar year case was considered 'closed' for statistical purposes,Bankruptcy Petition Newstats Snapshots Database
+BIDB69,Closing fiscal year,Fiscal year case was considered 'closed' for statistical purposes,Bankruptcy Petition Newstats Snapshots Database
 BIDB7,Office,Code of the district office in which the case is located,Bankruptcy Petition Newstats Snapshots Database; Civil Integrated Database; Criminal Integrated Database
 BIDB70,Closing chapter,Chapter of the Bankruptcy Code under which the case closed in the bankruptcy court,Bankruptcy Petition Newstats Snapshots Database
 BIDB71,Closing Subchapter V,Code indicating a case was closed as a Chapter 11 Subchapter V small business debtor reorganization case,Bankruptcy Petition Newstats Snapshots Database
@@ -166,9 +166,9 @@ CrIDB12,Major offense description,The code indicating the nature or type of disp
 CrIDB13,Counsel,A code indicating the type of legal cousel assigned to a defendant,Criminal Integrated Database
 CrIDB14,Termination judge,The statistical code associated with the judge who terminated the case,Criminal Integrated Database; Civil Integrated Database
 CrIDB15,Observation code,Code indicating the title and section of the U.S. Code applicable to the offense committed which carried the highest severity,Criminal Integrated Database
-CrIDB16,Sentence category,Code indicating the nature of the defendants sentence,Criminal Integrated Database
+CrIDB16,Sentence category,Code indicating the nature of the defendant's sentence,Criminal Integrated Database
 CrIDB17,Statute,Code indicating the title and section of the U.S. Code applicable to the offense under which the defendant was disposed,Criminal Integrated Database
-CrIDB18,Sentence type,Code indicating the length of the defendants sentence,Criminal Integrated Database
+CrIDB18,Sentence type,Code indicating the length of the defendant's sentence,Criminal Integrated Database
 CrIDB19,Prison term,The number of months a defendant was sentenced to prison,Criminal Integrated Database
 CrIDB2,Proceeding code,A code used to identify the nature of the proceeding,Criminal Integrated Database
 CrIDB20,Probation term,The number of months a defendants was sentenced to probation,Criminal Integrated Database
@@ -178,11 +178,11 @@ CrIDB23,Race,Race of the defendant,Criminal Integrated Database
 CrIDB24,Birth year,Year of birth of the defendant,Criminal Integrated Database
 CrIDB25,Marital status,Marital status of the defendant,Criminal Integrated Database
 CrIDB26,Education,Highest level of education attained by the defendant,Criminal Integrated Database
-CrIDB27,Prior record,Code ranking the severity of a defendants prior record,Criminal Integrated Database
+CrIDB27,Prior record,Code ranking the severity of a defendant's prior record,Criminal Integrated Database
 CrIDB28,Presentence investigation,Type of presentence investigation,Criminal Integrated Database
 CrIDB29,Rule 20 transfer,Type of Rule 20/21 Transfer under which the case was transferred,Criminal Integrated Database
 CrIDB3,Filing offense code,The four digit offense code representing the most severe offense at filing,Criminal Integrated Database
-CrIDB30,Defendant name,"The defendants name as reported on the indictment, information, or other charging documents",Criminal Integrated Database
+CrIDB30,Defendant name,"The defendant's name as reported on the indictment, information, or other charging documents",Criminal Integrated Database
 CrIDB31,Filing offense level,A code indicating the level of offense associated with the most severe offense at filing,Criminal Integrated Database
 CrIDB32,Termination offense level,A code indicating the level of offense associated with the most severe offense at termination,Criminal Integrated Database
 CrIDB4,Duplicate defendant,Indicates if the record is the second record for a defendant in the same district within a statistical year,Criminal Integrated Database
